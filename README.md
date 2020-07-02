@@ -4,6 +4,7 @@ is given a reference image and then tries to regenerate this image using polygon
 algorithm was designed and implemented in python which has some benefits in terms of the available tools
 for image manipulation but also has some drawbacks in term of run-time speed in pixel rendering and canvas
 allocation.
+
 • The main idea of the algorithm is to try approaching the original image by drawing shapes on the canvas and
 try to improve these drawings generation after another depending on the value of the fitness function. The
 algorithm starts from random N polygons with some transparency ratio. In each optimization step it randomly
